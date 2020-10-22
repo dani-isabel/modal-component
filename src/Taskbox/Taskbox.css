@@ -1,0 +1,12 @@
+.films {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 20vh;
+    border-radius: 10px;
+    background-color: blueviolet;
+    font-family: 'Calibri';
+    color: white;
+}

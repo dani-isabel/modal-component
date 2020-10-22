@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
 import ModalComponent from './Modal/Modal';
+import Taskbox from './Taskbox/Taskbox';
 
 function App() {
   return (
-    <div className="App">
-      <ModalComponent/>
-    </div>
+      <div>
+        <Taskbox/>
+        <ModalComponent/>
+      </div>
   );
 }
 
